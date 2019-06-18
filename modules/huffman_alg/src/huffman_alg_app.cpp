@@ -10,7 +10,6 @@ std::string HuffmanAlgApplication::operator()(int argc, const char** argv) {
     std::string operation = "";
 
     if (argc > 3) {
-        int key = 0;
         in_filename = argv[1];
         out_filename = argv[2];
         operation = argv[3];

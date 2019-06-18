@@ -10,16 +10,16 @@
 
 
 class HuffmanAlgApplication {
-private:
+ private:
     bool ReadFile(std::string in_filename);
     void WriteFile(std::string out_filename);
     std::string filetext_;
     Node HuffmnAlg;
 
-public:
+ public:
     std::string operator()(int argc, const char** argv);
     std::string GetHelpMessage();
     std::string DecodeFile(std::string in_filename, std::string out_filename);
     std::string EncodeFile(std::string in_filename, std::string out_filename);
 };
-#endif // MODULES_HUFFMAN_ALG_INCLUDE_HUFFMAN_ALG_APP_H_
+ #endif // MODULES_HUFFMAN_ALG_INCLUDE_HUFFMAN_ALG_APP_H_
